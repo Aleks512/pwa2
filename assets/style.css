@@ -1,0 +1,109 @@
+/* Reset des styles par défaut */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+
+/* Styles Bootstrap */
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'cursive 400';
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  h1, h2 {
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.5rem !important;
+    font-family: 'Lobster'!important;
+    color: #E60020 !important;
+  }
+  
+  .btn-custom {
+    background-color: #6FA401 !important;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-custom:hover {
+    background-color: #FFDE59 !important;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .nav-item a {
+    color: #1CAA46!important;
+  }
+  
